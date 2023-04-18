@@ -1,0 +1,72 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    background:#5451ff;
+}
+form{
+    background-color: #ffffff;
+    width: 450px;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.10);
+}
+label{
+    font-weight: 500;
+    color: #101030;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 8px;
+    outline: none;
+    color: #101010;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.10);
+}
+#password{
+    margin-bottom: 30px;
+}
+input[type="password"]{
+    border: 2px solid #c2c2c2;
+}
+input[type="button"]{
+    background-color: #5451ff;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+h2{
+    font-size: 16px;
+    display: inline-block;
+    color: #918f8f;
+}
+p{
+    font-size: 14px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #ffffff;
+}
+.password-check::after{
+    content: "";
+}
+.password-check{
+    display: flex;
+    color:gray;
+    font-weight: bold;
+}
